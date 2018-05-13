@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url("../img/background.png") repeat;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+.header, .content, .footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(5, 69, 153, 0.69);
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    background: cadetblue;
+    padding: 10px 0;
+}
+
+.footer {
+    background: rgba(43, 108, 135, 0.69);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.basket {
+    width: 300px;
+    min-height: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 8px 1px;
+    background: olivedrab;
+}
+
+.basket h3 {
+    text-align: center;
+}
+
+.basket_prod {
+    width: 296px;
+    height: 30px;
+    background: wheat;
+    border: 1px solid black;
+}
+
+.basket_prod span {
+    margin-left: 10px;
+}
+
+#product_block {
+    width: 296px;
+    min-height: 100px;
+    background: darkolivegreen;
+    margin: 10px 0;
+}
+
+.content > h3 {
+    text-align: center;
+}
+
+.product_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: cadetblue;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.product {
+    width: 230px;
+    box-sizing: border-box;
+    padding: 8px;
+    background: white;
+    min-height: 100px;
+}
+
+.header_product {
+    text-align: center;
+    color: darkslategray;
+    border-bottom: 1px solid black;
+    background: rgba(155, 193, 209, 0.69);
+}
+
+.img_product {
+    margin: 8px 0;
+    max-width: 214px;
+    max-height: 214px;
+}
+
+.desc {
+    margin: 8px 0;
+    text-align: justify;
+    border-bottom: 1px solid black;
+    background: rgba(192, 233, 250, 0.69);
+    box-sizing: border-box;
+    padding: 3px;
+}
+
+.buy {
+    margin: 8px auto;
+    outline: none;
+    background: rgba(58, 141, 176, 0.69);
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.buy:hover {
+    background: rgba(82, 198, 247, 0.69);
+}
+
+.buy:active {
+    background: rgba(245, 98, 235, 0.69);
+}
+
+.contact {
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+
+.chat {
+    position: absolute;
+    height: 200px;
+}
+
+.contact > h2 {
+    text-align: center;
+    color: lightcyan;
+    margin-bottom: 10px;
+}
+
+#contact_form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(90, 170, 204, 0.69);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+#contact_form label {
+    margin: 5px 0;
+}
+
+.input_desc {
+    margin-bottom: 8px;
+}
+
+#user_name, #user_phone, #user_email, #date {
+    margin-top: 6px;
+    width: 300px;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+#send {
+    margin: 6px 0 6px 110px;
+    width: 130px;
+    padding: 5px 10px;
+}

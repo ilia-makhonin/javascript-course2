@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork 4 (jQuery)</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section id="navigation">
+        <div id="tabs">
+
+            <h2>Табы</h2>
+
+            <ul id="tabs_select">
+                <li class="tab active">Первая вкладка</li>
+                <li class="tab">Вторая вкладка</li>
+                <li class="tab">Третья вкладка</li>
+            </ul>
+
+            <div id="tabs_content">
+                <div class="tab_content tab_show">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem deserunt distinctio
+                    eveniet excepturi maiores tempora voluptatem? Accusamus impedit nesciunt pariatur sapiente? Adipisci
+                    dignissimos distinctio enim neque sunt temporibus voluptatum.
+                </div>
+                <div class="tab_content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at aut consequuntur deleniti expedita
+                    labore quaerat rem sequi sit. Laboriosam modi molestias nihil praesentium quaerat! Accusantium,
+                    consectetur cupiditate dicta dolorem doloribus dolorum est expedita facilis, iste itaque molestias
+                    natus odio praesentium quasi ratione repellendus sed sint soluta unde voluptas voluptatibus!
+                </div>
+                <div class="tab_content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut debitis delectus earum, esse
+                    ipsum nulla omnis provident quae reiciendis tempore vero. Adipisci commodi, consequatur cum, dicta
+                    et laudantium numquam officiis qui rerum soluta tenetur.
+                </div>
+            </div>
+        </div>
+
+        <div id="acc_section">
+
+            <h2>Accordeon</h2>
+
+            <div id="accordeon">
+                <div class="accordeon_header">Заголовок 1</div>
+                <div class="accordeon_body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequatur cumque debitis delectus
+                    deserunt distinctio dolores doloribus, error exercitationem facilis fugiat itaque labore laudantium
+                    libero non placeat quia, quisquam quos recusandae repellendus sapiente sed temporibus. Accusantium
+                    aliquid assumenda distinctio eligendi incidunt, laboriosam, magnam magni non perferendis, perspiciatis
+                    quidem recusandae saepe voluptatum! Amet architecto aspernatur beatae, corporis cum cumque delectus
+                    dolorum ducimus earum expedita id inventore ipsum iure magni minus non odio odit optio placeat
+                    praesentium quasi quia quis quisquam quod reiciendis suscipit voluptatum? Asperiores dignissimos
+                    eaque, laudantium modi quia sed!
+                </div>
+                <div class="accordeon_header">Заголовок 2</div>
+                <div class="accordeon_body">
+                    <ul>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolor fugiat ipsa nemo odit optio.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facilis modi nihil nostrum
+                            nulla tempore?
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore mollitia perferendis,
+                            quia quibusdam saepe.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut delectus dignissimos,
+                            velit voluptas voluptatum.
+                        </li>
+                        <li>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus distinctio ea
+                            mollitia nam soluta.
+                        </li>
+                    </ul>
+                </div>
+                <div class="accordeon_header">Заголовок 3</div>
+                <div class="accordeon_body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus modi quam voluptas? Adipisci
+                    animi asperiores eaque esse est magnam odit perspiciatis, quisquam sequi soluta! Ad atque debitis
+                    ex nemo non, provident quidem?
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="auto">
+
+        <h2>Формы обратной связи</h2>
+
+        <form action="" id="select_city" method="post">
+            <label>
+                <span>Выбирите город:</span>
+                <br>
+            </label>
+            <input type="submit" id="submit_one" value="Отправить">
+        </form>
+
+        <form action="" id="auto_download">
+
+            <h3>Регистрация</h3>
+
+            <label>
+                <input type="text" name="user_name" placeholder="Введите имя">
+            </label>
+            <label>
+                <input type="text" name="phone" placeholder="Введите телефон">
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="Введите E-mail">
+            </label>
+            <label>
+                <input type="text" list="list_selected" id="enter_city" placeholder="Введите город">
+                <datalist id="list_selected"></datalist>
+            </label>
+            <input type="submit" value="Отправить" id="submit_two">
+        </form>
+    </div>
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts/main.js"></script>
+</body>
+</html>

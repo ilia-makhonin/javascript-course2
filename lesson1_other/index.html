@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hamburger</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="selection">
+        <h3>Hamburger</h3>
+
+        <div class="content">
+            <label>Размер гамбургера:
+                <select name="size" id="size">
+                    <option value="big">Большой</option>
+                    <option value="small">Маленький</option>
+                </select>
+            </label>
+
+            <div class="components">
+                <label for="filling">Выбирете начинку:
+                    <br>
+                    <select name="filling" id="filling">
+                        <option value="potatoes">Картофель</option>
+                        <option value="cheese">Сыр</option>
+                        <option value="salad">Салат</option>
+                    </select>
+                </label>
+                <label for="topping">Топпинги:
+                    <br>
+                    <select name="topping" id="topping">
+                        <option value="mayonnaise">Майонез</option>
+                        <option value="seasoning">Приправа</option>
+                    </select>
+                </label>
+            </div>
+
+            <input type="submit" id="send">
+        </div>
+
+        <div id="answer">
+            <p id="price">Цена: 0 руб.</p>
+            <p id="calories">Калории: 0 ккал.</p>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {"href":"/","title":"Главная"},
+  {"href":"/about","title":"О нас",
+    "subItem": [
+      {"href":"/history","title":"История"},
+      {"href":"/company","title":"Компания сейчас"},
+      {"href":"/team","title":"Наша команда"},
+      {"href":"/other","title":"Прочее"}
+    ]
+  },
+  {"href":"/address","title":"Адреса и контакты",
+    "subItem": [
+    {"href":"/ads_shop","title":"Адреса магазинов"},
+    {"href":"/contacts","title":"Как с нами связаться"}
+  ]},
+  {"href": "/payment","title":"Оплата"},
+  {"href": "/delivery","title":"Доставка",
+    "subItem": [
+      {"href":"/dlr_view","title":"Виды доставки"},
+      {"href":"/pickup","title":"Самовывоз"}
+    ]},
+  {"href": "/guarantee","title":"Гарантия"}
+]

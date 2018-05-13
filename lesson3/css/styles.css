@@ -1,0 +1,54 @@
+#text {
+    margin: 20px 10px;
+}
+
+#dist {
+    margin: 20px 10px;
+    font-size: 18px;
+}
+
+#contact {
+    position: relative;
+    width: 240px;
+    height: 380px;
+    background: grey;
+    box-sizing: border-box;
+    padding: 8px 8px;
+    margin: 50px auto;
+}
+
+#contact h3 {
+    text-align: center;
+    margin: 6px;
+}
+
+#form {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.error_form {
+    width: 260px;
+    height: 22px;
+    box-sizing: border-box;
+    padding: 3px 8px;
+    opacity: 0.8;
+    border-radius: 6px;
+    background: lightcoral;
+    position: absolute;
+    left: 180px;
+    display: none;
+    z-index: 3;
+}
+
+#message {
+    resize: none;
+}

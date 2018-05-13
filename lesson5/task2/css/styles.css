@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.level_top {
+    border-bottom: 1px solid black;
+    background: lightblue;
+    padding-top: 1px;
+}
+
+.level_down {
+    background: royalblue;
+    padding: 30px;
+}
+
+.review {
+    width: 800px;
+    border: 1px solid green;
+    margin: 30px auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment {
+    box-sizing: border-box;
+    padding: 8px;
+    background: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+.error {
+    width: 798px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#enter_review {
+    width: 100%;
+    border-top: 1px solid lawngreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 8px 0;
+    position: relative;
+}
+
+.error_message {
+    position: absolute;
+    background: lightcoral;
+    padding: 10px 20px;
+    font-size: 20px;
+    top: 60px;
+    right: -30px;
+    opacity: 0.7;
+    z-index: 3;
+}
+
+.success_message {
+    position: absolute;
+    background: lightgreen;
+    padding: 10px 20px;
+    font-size: 20px;
+    top: 60px;
+    right: 30px;
+    opacity: 0.7;
+    z-index: 3;
+}
+
+#user_review {
+    width: 600px;
+    height: 100px;
+    margin: 10px 0;
+    resize: none;
+}
+
+#open_admin_panel {
+    width: 230px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+
+.admin_panel {
+    width: 600px;
+    min-height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: lightblue;
+    box-sizing: border-box;
+    padding: 10px 0;
+    display: none;
+}
+
+.admin_panel > h3 {
+    text-align: center;
+}
+
+#moderation_review {
+    width: 598px;
+    margin: 6px 0;
+}
+
+.mod_block {
+    border: 1px solid black;
+    box-sizing: border-box;
+    background: lightcyan;
+    padding: 6px 0;
+}
+
+.mod_block button {
+    margin-left: 10px;
+}
+
+.comment_pre {
+    width: 598px;
+    border-bottom: 1px solid black;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+    padding: 6px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="level_top">
+        <section class="review">
+            <section id="review_list">
+                <!-- Поле для отзывов -->
+            </section>
+            <div id="enter_review">
+                <h3>Ваш отзыв</h3>
+                <label>
+                    <textarea name="user_review" id="user_review">A clear conscience laughs at false accusations</textarea>
+                </label>
+                <input type="submit" id="send_rvw">
+            </div>
+        </section>
+    </section>
+
+    <section class="level_down">
+        <button id="open_admin_panel">Открыть/закрыть панель</button>
+        <section class="admin_panel">
+            <h3>Модерация отзывов</h3>
+            <div id="moderation_review"></div>
+        </section>
+    </section>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

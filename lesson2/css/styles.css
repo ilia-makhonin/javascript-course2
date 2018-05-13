@@ -1,0 +1,150 @@
+body {
+    background-color: lightblue;
+}
+
+button {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.my_class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 50px;
+}
+
+.my_class > li {
+    display: inline;
+    padding: 17px 12px;
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    transition: background-color 1s;
+    position: relative;
+}
+
+.my_class > li:last-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 18px 12px;
+}
+
+.my_class > li:hover {
+    background-color: darkgrey;
+}
+
+.my_sub_class {
+    list-style: none;
+    display: none;
+    position: absolute;
+    width: 200px;
+    left: -50px;
+    top: 53px;
+    z-index: 1;
+}
+
+.my_sub_class > li {
+    width: 100%;
+    padding: 17px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: grey;
+    transition: background-color 1s;
+}
+
+.my_sub_class > li:first-child {
+    border: none;
+}
+
+.my_class > li:hover .my_sub_class {
+    display: block;
+    animation: opc .5s linear;
+}
+
+.my_sub_class > li:hover {
+    background-color: darkgrey;
+}
+
+@keyframes opc {
+    0% {opacity: 0}
+    100% {opacity: 1;}
+}
+
+.block {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 150px auto;
+}
+
+.gallery {
+    width: 430px;
+    background: cadetblue;
+}
+
+.gallery > h1 {
+    text-align: center;
+}
+
+#glr {
+    margin-left: 50px;
+}
+
+#table {
+    display: none;
+    border-collapse: collapse;
+    background: olive;
+}
+
+.one__cell {
+    width: 200px;
+    height: 200px;
+    border: 1px solid indigo;
+    padding: 7px 7px 0 7px;
+    transition: opacity .5s;
+}
+
+.link {
+    width: 200px;
+    text-decoration: none;
+    padding: 0;
+}
+
+.link > img {
+    width: 200px;
+    height: 200px;
+}
+
+.one__cell:hover {
+    opacity: 0.8;
+}
+
+#answer_server {
+    width: 430px;
+    height: 520px;
+    background: cadetblue;
+    box-sizing: border-box;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result {
+    width: 408px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

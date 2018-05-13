@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navigation {
+    min-height: 330px;
+    display: flex;
+    flex-direction: row;
+}
+
+#tabs {
+    width: 650px;
+    padding: 50px 20px;
+    background: lightcyan;
+    min-height: 330px;
+}
+
+#tabs_select {
+    width: 380px;
+    height: 50px;
+    list-style: none;
+    box-sizing: border-box;
+    padding-left: 2px;
+}
+
+.tab {
+    width: 122px;
+    height: 50px;
+    display: inline-block;
+    border: 2px solid lightgreen;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: white;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    cursor: pointer;
+}
+
+.active {
+    background: lightgreen;
+}
+
+.tab_content {
+    display: none;
+    width: 500px;
+    min-height: 100px;
+    background: white;
+    border: 2px solid lightgreen;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.tab_show {
+    display: block;
+}
+
+#acc_section {
+    width: 650px;
+    min-height: 330px;
+    padding: 50px 20px;
+    background: rosybrown;
+}
+
+#accordeon {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.accordeon_header {
+    width: 450px;
+    height: 30px;
+    background: linear-gradient(to bottom, sienna, saddlebrown);
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.accordeon_body {
+    display: none;
+    width: 450px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid saddlebrown;
+    background: sandybrown;
+}
+
+.accordeon_body > ul {
+    list-style: inside;
+}
+
+#auto {
+    min-height: 500px;
+    background: lightslategrey;
+    padding: 20px;
+    position: relative;
+}
+
+#select_city {
+    width: 220px;
+    height: 110px;
+    background: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#city_list {
+    width: 118px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+}
+
+#submit_one {
+    color: white;
+    background: midnightblue;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+#auto_download {
+    width: 300px;
+    height: 250px;
+    margin: 20px auto;
+    background: chocolate;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#auto_download input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
